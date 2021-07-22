@@ -9,12 +9,12 @@
 # General "Open Sans", sans-serif
 --------------------------------------------------------------*/
 body {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 a {
