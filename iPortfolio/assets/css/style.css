@@ -9,7 +9,7 @@
 # General "Open Sans", sans-serif
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Courier New', Courier, monospace, monospace;
   color: #272829;
 }
 
@@ -271,8 +271,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin: 30px;
+  padding: 30px;
+
 }
 
 .portfolio #portfolio-flters {
