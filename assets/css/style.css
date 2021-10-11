@@ -236,13 +236,14 @@ section {
     height: 40vh;
     width: 25vw;
   }
+}
   
-  @media (max-width: 540px) {
-    #profilePic {
-      height: 30vh;
-      width: 40vw;
-    }
+@media (max-width: 540px) {
+  #profilePic {
+    height: 30vh;
+    width: 40vw;
   }
+}
 
 /*--------------------------------------------------------------
 # Skills
