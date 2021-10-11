@@ -231,8 +231,21 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 990px) {
+  #profilePic {
+    height: 40vh;
+    width: 25vw;
+  }
+  
+  @media (max-width: 540px) {
+    #profilePic {
+      height: 30vh;
+      width: 40vw;
+    }
+  }
+
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -567,10 +580,9 @@ section {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
-  position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100vw;
   z-index: 9999;
   background: #040b14;
 }
